@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+celery
+redis
+requests
+pydantic
+pytest
+openai
+slowapi>=0.1.7
