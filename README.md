@@ -6,7 +6,19 @@
 - API: /analyze-pr, /status/{task_id}, /results/{task_id}
 - Dockerized setup
 
+
+
 ## Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/balaprasad370/pullrequest-reviewer
+cd pullrequest-reviewer
+```
+
+and then  
+
 ```bash
 docker-compose up --build
 ```
