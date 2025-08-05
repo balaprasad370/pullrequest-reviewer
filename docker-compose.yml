@@ -12,7 +12,7 @@ services:
       - .:/app
     working_dir: /app
     environment:
-      - REDIS_URL=redis://redis:6379/0  # ✅ recommended for clarity
+      - REDIS_URL=redis://redis:6379/0  # recommended for clarity
 
   redis:
     image: redis:alpine
@@ -27,4 +27,4 @@ services:
     working_dir: /app
     env_file: .env
     environment:
-      - REDIS_URL=redis://redis:6379/0  # ✅ recommended
+      - REDIS_URL=redis://redis:6379/0  # recommended for clarity

@@ -6,4 +6,5 @@ requests
 pydantic
 pytest
 openai
+crewai
 slowapi>=0.1.7
